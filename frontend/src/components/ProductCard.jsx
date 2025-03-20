@@ -31,7 +31,6 @@ const ProductCard = ({ product }) => {
     }
 
     const handleUpdateProduct = async (id, updatedProduct) => {
-        alert(id);
         await updateProduct(id, updatedProduct);
         onClose();
     }
